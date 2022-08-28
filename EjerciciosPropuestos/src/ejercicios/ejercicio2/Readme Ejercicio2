@@ -1,0 +1,15 @@
+Ejercicio propuesto 2
+
+Siguiendo la lógica del ejercicio propuesto 1, prepararemos una hoja de calificaciones para el 
+estudiante, la cual servirá como base para calcular el promedio final utilizando lo aprendido en
+cuanto a formato.
+
+
+Requerimientos:
+Crear y mostrar en pantalla, una hoja de calificaciones que tendrá la siguiente información:
+● Nombre completo del estudiante.
+● Asignatura.
+● Nombre del Docente.
+● Nota 1.
+● Nota 2.
+● Nota 3.
