@@ -26,6 +26,8 @@ public class Alumno {
 		System.out.println("Ingresar tercera nota");
 		int nota3 = sc.nextInt();
 		
-		System.out.println("Alumno: %s %s\n Asignatura: %s\n Docente: Sr./Sra. %s\n Nota 1: %d\n Nota 2: %d\n Nota 3: %d");
+		String ficha = String.format("Alumno: %s %s\n Asignatura: %s\n Docente: Sr./Sra. %s\n Nota 1: %d\n Nota 2: %d\n Nota 3: %d", nombre, apellido, asignatura, apellidoDocente,nota1,nota2,nota3);
+		System.out.println(ficha);
+	
 	}
 }
