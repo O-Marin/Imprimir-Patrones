@@ -10,6 +10,7 @@ public class Main {
 		Alumno alumno1 = new Alumno();
 		
 		//resultado.promedio();
+		
 		alumno1.fichaAlumno();
 		
 		

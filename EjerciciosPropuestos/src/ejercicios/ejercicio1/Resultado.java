@@ -12,7 +12,7 @@ public class Resultado {
 		float nota1 = sc.nextFloat();
 		while ((nota1 < 1) || (nota1 > 7)){
 			System.out.println("Nota " + nota1 +  " invalida, por favor intentar nuevamente, Insertar una nota entre 1 y 7");
-			nota1 = sc.nextInt();
+			nota1 = sc.nextFloat();
 		}
 		
 		
@@ -20,14 +20,14 @@ public class Resultado {
 		float nota2 = sc.nextFloat();
 		while ((nota2 < 1) || (nota2 > 7)){
 			System.out.println("Nota " + nota2 +  " invalida, por favor intentar nuevamente, Insertar una nota entre 1 y 7");
-			nota2 = sc.nextInt();
+			nota2 = sc.nextFloat();
 		}
 		
 		System.out.println("nota 3");
 		float nota3 = sc.nextFloat();
 		while ((nota3 < 1) || (nota3 > 7)){
 			System.out.println("Nota " + nota3 +  " invalida, por favor intentar nuevamente, Insertar una nota entre 1 y 7");
-			nota3 = sc.nextInt();
+			nota3 = sc.nextFloat();
 		}
 		
 		

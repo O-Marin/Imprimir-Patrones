@@ -18,15 +18,27 @@ public class Alumno {
 		String apellidoDocente = sc.nextLine();
 		
 		System.out.println("Ingresar primera nota");
-		int nota1 = sc.nextInt();
+		float nota1 = sc.nextFloat();
+		while ((nota1 < 1) || (nota1 > 7)){
+			System.out.println("Nota " + nota1 +  " invalida, por favor intentar nuevamente, Insertar una nota entre 1 y 7");
+			nota1 = sc.nextFloat();
+		}
 		
 		System.out.println("Ingresar segunda nota");
-		int nota2 = sc.nextInt();
+		float nota2 = sc.nextFloat();
+		while ((nota2 < 1) || (nota2 > 7)){
+			System.out.println("Nota " + nota2 +  " invalida, por favor intentar nuevamente, Insertar una nota entre 1 y 7");
+			nota2 = sc.nextFloat();
+		}
 		
 		System.out.println("Ingresar tercera nota");
-		int nota3 = sc.nextInt();
+		float nota3 = sc.nextFloat();
+		while ((nota3 < 1) || (nota3 > 7)){
+			System.out.println("Nota " + nota3 +  " invalida, por favor intentar nuevamente, Insertar una nota entre 1 y 7");
+			nota3 = sc.nextFloat();
+		}
 		
-		String ficha = String.format("Alumno: %s %s\n Asignatura: %s\n Docente: Sr./Sra. %s\n Nota 1: %d\n Nota 2: %d\n Nota 3: %d", nombre, apellido, asignatura, apellidoDocente,nota1,nota2,nota3);
+		String ficha = String.format("Alumno: %s %s\n Asignatura: %s\n Docente: Sr./Sra. %s\n Nota 1: %.1f\n Nota 2: %.1f\n Nota 3: %.1f", nombre, apellido, asignatura, apellidoDocente,nota1,nota2,nota3);
 		System.out.println(ficha);
 	
 	}
