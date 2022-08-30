@@ -38,9 +38,12 @@ public class CalificacionesAlumno {
 			nota3 = sc.nextFloat();
 		}
 		
-		String ficha = String.format("Alumno: %s %s\n Asignatura: %s\n Docente: Sr./Sra. %s\n Nota 1: %.1f\n Nota 2: %.1f\n Nota 3: %.1f", nombre, apellido, asignatura, apellidoDocente,nota1,nota2,nota3);
-		System.out.println(ficha);
-	
 		
+	
+		float promedio = (nota1 + nota2 + nota3)/3;	
+		System.out.println("Promedio del alumno: " + promedio);
+		
+		String ficha = String.format("Alumno: %s %s\n Asignatura: %s\n Docente: Sr./Sra. %s\n Nota 1: %.1f\n Nota 2: %.1f\n Nota 3: %.1f\n Promedio: %.1f", nombre, apellido, asignatura, apellidoDocente,nota1,nota2,nota3,promedio);
+		System.out.println(ficha);
 	}
 }

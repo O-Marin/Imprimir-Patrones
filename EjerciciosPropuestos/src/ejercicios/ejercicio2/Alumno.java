@@ -41,5 +41,6 @@ public class Alumno {
 		String ficha = String.format("Alumno: %s %s\n Asignatura: %s\n Docente: Sr./Sra. %s\n Nota 1: %.1f\n Nota 2: %.1f\n Nota 3: %.1f", nombre, apellido, asignatura, apellidoDocente,nota1,nota2,nota3);
 		System.out.println(ficha);
 	
+		
 	}
 }

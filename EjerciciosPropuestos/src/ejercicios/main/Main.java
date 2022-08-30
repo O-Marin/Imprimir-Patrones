@@ -13,7 +13,8 @@ public class Main {
 		
 		//resultado.promedio();
 		
-		alumno1.fichaAlumno();
+		//alumno1.fichaAlumno();
+		promedioAlumno.calificacion();
 		
 		
 	}
