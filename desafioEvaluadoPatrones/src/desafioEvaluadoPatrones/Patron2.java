@@ -26,11 +26,10 @@ public class Patron2 {
 			System.out.println();
 			x++;
 		}
-		sc.close();
+		
 
 	}
 
-	// prueba patron 1
 	public static void patron2() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Ingresar valor n");

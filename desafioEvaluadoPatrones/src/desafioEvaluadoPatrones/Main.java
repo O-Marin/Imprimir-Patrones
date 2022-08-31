@@ -9,9 +9,10 @@ public class Main {
 		 * Patron1.patronUno(); System.out.println(); Patron1.patronDos();
 		 * System.out.println(); Patron1.patronTres(); System.out.println();
 		 */
-		/*
-		 * Patron2.patron1(); System.out.println(); Patron2.patron2();
-		 */
 		
+		  Patron2.patron1(); System.out.println();
+		  Patron2.patron2(); System.out.println();
+		 
+
 	}
 }
