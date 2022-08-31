@@ -50,10 +50,10 @@ public class CalificacionesAlumno {
 		System.out.println(ficha);
 
 		if (promedio < 4.0) {
-			System.out.println("Alumno Reprobado");
-		} else if (promedio >= 4.0) {
-			System.out.println("Alumno Aprobado");
-		}
+			System.out.println("Debes dar una prueba de recuperacion para poder rendir el examen final");
+		} else if (promedio >= 4.0 && promedio <= 5.5) {
+			System.out.println("Debes rendir el examen final para aprobar");
+		} else {System.out.println("Felicidades! te eximiste del examen y aprobaste");}
 
 	}
 }
