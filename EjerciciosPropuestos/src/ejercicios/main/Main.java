@@ -22,9 +22,9 @@ public class Main {
 		
 		//promedioAlumno.calificacion();//este metodo incluye los ejercicios anteriores
 		//hip.calcularHipotenusa();
-		comparacion.igual();
-		comparacion.comparado();
+		comparacion.comparacion();
 		
+	
 		
 	}
 
