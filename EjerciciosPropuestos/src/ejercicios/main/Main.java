@@ -20,9 +20,9 @@ public class Main {
 		//alumno1.fichaAlumno();
 		
 		
-		//promedioAlumno.calificacion();//este metodo incluye los ejercicios anteriores
+		promedioAlumno.calificacion();//este metodo incluye los ejercicios anteriores
 		//hip.calcularHipotenusa();
-		comparacion.comparacion();
+		//comparacion.comparacion();
 		
 	
 		
