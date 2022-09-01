@@ -58,6 +58,28 @@ public class Patron2 {
 	}
 
 	public static void patron3() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Insertar n");
+		int n = sc.nextInt();
+		int j = 0;
+		int x = 1;
+		while (x <= n) {
+			for (int i = 1; i <= n; i++) {
+				if (i == x || i == n - j) {
+
+					System.out.print("x");
+					
+				} else if (i != x || i != n-j) {
+					System.out.print(" ");
+				}
+				
+
+			}
+			j++;
+
+			System.out.println();
+			x++;
+		}
 
 	}
 }
